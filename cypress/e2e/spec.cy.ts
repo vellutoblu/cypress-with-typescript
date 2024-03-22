@@ -5,8 +5,8 @@ describe('my first test', () => {
     cy.visit('/todo')
 
     cy
-      .get('h1')
-      .invoke('text')
+      .get('[data-id="1711078961972"] > .view > label')
+      .realHover()
 
     
     
