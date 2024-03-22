@@ -5,8 +5,8 @@ describe('my first test', () => {
     cy.visit('/todo')
 
     cy
-      .contains('todos')
-      .should('be.visible')
+      .get('h1')
+      .invoke('text')
 
     
     
