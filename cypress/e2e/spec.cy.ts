@@ -5,7 +5,7 @@ describe('my first test', () => {
     cy.visit('/todo')
 
     cy
-      .get('[data-id="1711078961972"] > .view > label')
+      .get(':nth-child(1) > .view > label')
       .realHover()
 
     
