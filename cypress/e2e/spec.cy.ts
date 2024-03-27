@@ -6,7 +6,8 @@ describe('my first test', () => {
 
     cy
       .get(':nth-child(1) > .view > label')
-      .trigger('mouseover')
+      .realHover()
+    
 
       
     
