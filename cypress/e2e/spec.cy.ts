@@ -9,7 +9,7 @@ describe('my first test', () => {
       .realHover()
       
     cy
-      .get('destroy todo-button')
+      .get('.destroy todo-button')
 
     
     
