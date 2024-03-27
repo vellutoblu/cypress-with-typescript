@@ -6,11 +6,10 @@ describe('my first test', () => {
 
     cy
       .get(':nth-child(1) > .view > label')
-      .realHover()
-      
-    cy
-      .get('.destroy todo-button')
+      .trigger('mouseover')
 
+      
+    
     
     
   })
