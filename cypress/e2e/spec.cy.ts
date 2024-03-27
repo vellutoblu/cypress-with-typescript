@@ -7,6 +7,7 @@ describe('my first test', () => {
     cy
       .get(':nth-child(1) > .view > label')
       .realHover()
+      .find('button.destroy.todo-button')
     
 
       
