@@ -5,9 +5,9 @@ describe('my first test', () => {
     cy.visit('/todo')
 
     cy
-      .get(':nth-child(1) > .view > label')
-      .realHover()
-      .find('button.destroy.todo-button')
+      .get('[data-test="new-todo"]')
+      .type('pay something{enter}')
+
     
 
       
