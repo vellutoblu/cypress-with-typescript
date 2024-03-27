@@ -6,8 +6,10 @@ describe('my first test', () => {
 
     cy
       .get(':nth-child(1) > .view > label')
-      .contains('.destroy todo-button')
-    
+      .realHover()
+      
+    cy
+      .get('destroy todo-button')
 
     
     
